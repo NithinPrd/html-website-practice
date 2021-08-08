@@ -1,0 +1,30 @@
+<!DOCTYPE html>
+<html>
+    <link rel="stylesheet" href="./style.css">
+    <head>
+        <title>
+            Sample Web Page
+        </title>
+    </head>
+    <body>
+        <h1 class='title-class'>Login Form</h1>
+        <div class='half-screen'></div>
+        <div class='half-screen'>
+            <form id='loginForm' action='/login' method="post">
+                <div>
+                    <label for='username'><b>Username</b></label>
+                    <input type='text' placeholder="Enter Username" name='username'>
+                </div>
+                <div>
+                    <label for='password'><b>Password</b></label>
+                    <input type='password' placeholder="Enter Password" name='password'>
+                </div>
+                <div>
+                    <button type='submit'>Login</button>
+                </div>
+            </form>
+            <p>Not a user? <a href='/register'>Click here to register.</a></p>
+            <p>Forgot your password? <a href='/reset-password'>Click here to reset your password.</a></p>
+        </div>
+    </body>
+</html>
