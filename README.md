@@ -7,6 +7,6 @@ The following funtionalities have been implemented currently:
   2. Changing the password of users
 
 Technologies being used:
-  Frontend: HTML, CSS, JS
-  Backend: node.js
-  DB: MongoDB
+  - Frontend: HTML, CSS, JS
+  - Backend: Node.js
+  - DB: MongoDB
