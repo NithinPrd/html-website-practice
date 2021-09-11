@@ -1,5 +1,5 @@
 {
-  "name": "web-development",
+  "name": "html-website-practice",
   "version": "1.0.0",
   "description": "Package to learn about fullstack applications using HTML, CSS and Javascript only",
   "main": "server.js",
@@ -15,7 +15,7 @@
     "node",
     "mongodb"
   ],
-  "author": "NithinP",
+  "author": "NithinPrd",
   "license": "ISC",
   "dependencies": {
     "body-parser": "^1.19.0",

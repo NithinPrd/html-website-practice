@@ -1,5 +1,76 @@
 <html>
-    <body>
-        Hello World
+    <link rel="stylesheet" href="./style.css">
+    <head>
+        <title>Register to practice website</title>
+    </head>
+    <body class='grassy'>
+        <h1>Welcome!</h1>
+        <h3>Thank you for choosing to register with us. We will try our utmost best</h3>
+        <h6>to make sure it's as difficult as possible</h6>
+        <div class='column'>
+            <img src='./assets/weed_cat.jpg' alt='Welcoming Image' class='image-blurred-edge'>
+        </div>
+        <div class='column'>
+            <form id='registrationForm' action='register' method="POST">
+                <table>
+                    <tr>
+                        <td>
+                            <label for='firstName'><b>First Name</b></label>
+                        </td>
+                        <td>
+                            <input id='firstName' name='firstName' type='text'>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for='lastName'><b>Last Name</b></label>
+                        </td>
+                        <td>
+                            <input id='lastName' name='lastName' type='text'>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for='email'><b>Email</b></label>
+                        </td>
+                        <td>
+                            <input id='email' name='email' type='text'>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for='username'><b>Username</b></label>
+                        </td>
+                        <td>
+                            <input id='username' name='username' type='text'>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for='password'><b>Password</b></label>
+                        </td>
+                        <td>
+                            <input id='password' name='password' type='password'>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <label for='confirm_password'><b>Confirm Password</b></label>
+                        </td>
+                        <td>
+                            <input id='confirm_password' name='confirm_password' type='password'>
+                        </td>
+                    </tr>
+                    <tr>
+                        <td>
+                            <button type="submit" style="float: right;">Register</button>
+                        </td>
+                        <td>
+                            <button type="reset" style="float: left;">Reset</button>
+                        </td>
+                    </tr>
+                </table>
+            </form>
+        </div>
     </body>
 </html>

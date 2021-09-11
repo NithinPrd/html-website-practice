@@ -27,6 +27,11 @@ app.get("/style.css", (req, res) => {
     res.sendFile(path.join(__dirname, 'styles', "style.css"))
 })
 
+app.get("/assets/:fileName", (req, res) => {
+    console.log("Loaded image file")
+    res.sendFile(path.join(__dirname, 'assets', req.params.fileName))
+})
+
 app.post("/login", (req, res) => {
     if(req.body.username === '' || req.body.password === '') {
         res.send("Please enter mandatory values")

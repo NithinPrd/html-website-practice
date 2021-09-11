@@ -10,6 +10,11 @@ div {
     text-align: center;
 }
 
+.column {
+    float: left;
+    width: 50%;
+}
+
 table {
     margin-left: auto;
     margin-right: auto;
@@ -30,4 +35,18 @@ table {
 
 .textfield-error {
     background-color: rgb(241, 192, 192);
+}
+
+.image-blurred-edge {
+    width: 100%;
+    height: auto;
+    box-shadow: inset 0px 0px 8px 8px white;
+}
+
+.grassy {
+    background-color: rgb(220, 243, 186);
+}
+
+.woody {
+    background-color: rgb(197, 102, 62);
 }
